@@ -1,0 +1,17 @@
+name: ZornoDuel
+version: 1.0.0
+main: com.zornoely.duel.ZornoDuel
+api-version: '1.21'
+author: ZornoEly
+commands:
+  duel:
+    description: Duel komutlari
+    usage: /duel
+  arena:
+    description: Arena yonetim komutlari
+    permission: zornoduel.admin
+    permission-message: §8[§bZornoEly§8] §cBu komutu kullanmaya yetkin yok!
+permissions:
+  zornoduel.admin:
+    default: op
+    
